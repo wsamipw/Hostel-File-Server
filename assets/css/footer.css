@@ -1,0 +1,196 @@
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #364f6d; /*#14B34E; /*#19AD4F; /* #19AD63; /*#19AD7A; */ /* #0c1a1e; /* #EDEFF1; */
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #000000; /* #CCCCCC; */
+	border-top: 1px solid #DDDDDD;
+	font-family: 'Open Sans', sans-serif;
+	/* margin-top: 20px; */
+}
+.footer p {
+	margin: 0;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #fff; /* #54697E; */
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #fff; /* #78828D */
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input {
+	background: #FFFFF;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	clear: both;
+	width: 75%;
+}
+.newsletter-box .btn {
+	/*border: medium none;*/
+	/*-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;*/
+	border-radius: 0px;
+	vertical-align: top;
+	display: inline-block;
+	height: 50px;
+	padding: 0;
+	width: 50px;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-color: #2c3e50;
+	/*background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);*/
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+	background: none repeat scroll 0 0 #2c3e50; /* #B5B5B5 */;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 1px 3px 0 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	
+	background: #2c3e50;
+}
+.social li a {
+	color: #EDEFF1;
+}
+
+.social li.fb-color{
+	background: none repeat scroll 0 0 #3b5998;
+}
+
+.social li.twitter-color{
+	background: none repeat scroll 0 0 #00aced;
+}
+
+.social li.google-color{
+	background: none repeat scroll 0 0 #d34836;
+}
+
+.social li.pinterest-color{
+	background: none repeat scroll 0 0 #cb2027;
+}
+
+.social li.youtube-color{
+	background: none repeat scroll 0 0 #bb0000;
+}
+
+/*
+.social li.fb-color:hover{
+	background: none repeat scroll 0 0 #3b5998;
+}
+
+.social li.twitter-color:hover{
+	background: none repeat scroll 0 0 #00aced;
+}
+
+.social li.google-color:hover{
+	background: none repeat scroll 0 0 #d34836;
+}
+
+.social li.pinterest-color:hover{
+	background: none repeat scroll 0 0 #cb2027;
+}
+
+.social li.youtube-color:hover{
+	background: none repeat scroll 0 0 #bb0000;
+}
+*/
+
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+
+ul.social {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-bottom {
+	background: #000000; /* #E3E3E3; */
+	border-top: 1px solid #000000; /* #DDDDDD; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+
+}
+.payments {
+	font-size: 1.5em;	
+}
+
+.footerleft { margin-top:50px; padding:0 36px; }
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#000;}
+
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
