@@ -161,6 +161,13 @@ a:hover {
     color: #337ab7;
 }
 
+.side-panel .fa-graduation-cap,
+.side-panel .fa-graduation-cap,
+.side-panel .fa-music,
+.side-panel .fa-film {
+    margin-right: 8px;
+}
+
 .loader {
     border: 16px solid #f3f3f3;
     /* Light grey */
@@ -191,4 +198,37 @@ footer ul>li {
     color: #777;
     display: inline;
     padding-right: 20px;
+}
+
+.footer-navs a {
+    color: #777;
+}
+
+.footer-navs a:hover {
+    text-decoration: underline;
+}
+
+
+/* layout.css Style */
+
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+
+/* skin.css Style*/
+
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
 }
