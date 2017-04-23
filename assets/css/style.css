@@ -23,10 +23,6 @@ a:hover {
     font-weight: bold;
 }
 
-.upload-btn {
-    /*padding-right: 30px;*/
-}
-
 .side-panel {
     border-right: 1px solid #e7e7e7;
 }
@@ -164,7 +160,8 @@ a:hover {
 .side-panel .fa-graduation-cap,
 .side-panel .fa-graduation-cap,
 .side-panel .fa-music,
-.side-panel .fa-film {
+.side-panel .fa-film,
+.side-panel .fa-object-group {
     margin-right: 8px;
 }
 
@@ -231,4 +228,31 @@ footer ul>li {
 .upload-drop-zone.drop {
     color: #222;
     border-color: #222;
+}
+
+.recent-uploads-notif {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.recent-uploads-notif li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recent-uploads-notif small {
+    font-size: 12px;
+}
+
+.recent-uploads-notif .recent-item-list {
+    padding-left: 5px;
+    border-bottom: 1px solid lightblue;
+}
+
+.recent-uploads-notif .recent-item-list:last-child {
+    border-bottom: none;
+}
+
+.recent-uploads-notif .recent-item-list:hover {
+    background-color: #e7e7e7;
 }
