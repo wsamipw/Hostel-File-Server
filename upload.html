@@ -28,55 +28,69 @@
             <div class="upload-btn text-right">
                 <div class="search">
                     <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search for subjects or movies..." />
-                    <a href="upload.html"></a><button type="submit" class="btn btn-primary btn-sm"><span class="fa fa-search"></span></button>
+                    <button type="submit" class="btn btn-primary btn-sm"><span class="fa fa-search"></span></button>
                 </div>
 
-                <button class="btn btn-primary btn-lg navbar-btn">Upload</button>
+                <a href="upload.html"><button class="btn btn-primary btn-lg navbar-btn">Upload</button></a>
             </div>
 
         </div>
     </nav>
     <section id="mainbody">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 side-panel">
+                    <ul class="item-collection-list" type="none">
+                        <li class="item-list"><a href="index.html"><span class="fa fa-graduation-cap"></span> Academics</a></li>
+                        <li class="item-list"><a href="index.html"><span class="fa fa-film"></span> Movies</a></li>
+                        <li class="item-list"><a href="index.html"><i class="fa fa-television" aria-hidden="true"></i> TV series</a></li>
+                        <li class="item-list"><a href="index.html"><span class="fa fa-music"></span> Music</a></li>
+                    </ul>
 
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading"><strong>Upload Files and Folder</strong></div>
-                <div class="panel-body">
+                </div>
+                <!--side panel-->
+                <div class="col-sm-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><strong>Upload Files and Folder</strong></div>
+                        <div class="panel-body">
 
-                    <!-- Standar Form -->
-                    <h4>Select files from your computer</h4>
-                    <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
-                        <div class="form-inline">
-                            <div class="form-group">
-                                <input type="file" name="files[]" id="js-upload-files" multiple>
+                            <!-- Standar Form -->
+                            <h4>Select files from your computer</h4>
+                            <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+                                <div class="form-inline">
+                                    <div class="form-group">
+                                        <input type="file" name="files[]" id="js-upload-files" multiple>
+                                    </div>
+                                    <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
+                                </div>
+                            </form>
+
+                            <!-- Drop Zone -->
+                            <h4>Or drag and drop files below</h4>
+                            <div class="upload-drop-zone" id="drop-zone">
+                                Just drag and drop files here
                             </div>
-                            <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
-                        </div>
-                    </form>
 
-                    <!-- Drop Zone -->
-                    <h4>Or drag and drop files below</h4>
-                    <div class="upload-drop-zone" id="drop-zone">
-                        Just drag and drop files here
-                    </div>
+                            <!-- Progress Bar -->
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
 
-                    <!-- Progress Bar -->
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
-
-                    <!-- Upload Finished -->
-                    <div class="js-upload-finished">
-                        <h3>Processed files</h3>
-                        <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-01.jpg</a>
-                            <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-02.jpg</a>
+                            <!-- Upload Finished -->
+                            <div class="js-upload-finished">
+                                <h3>Processed files</h3>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-01.jpg</a>
+                                    <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-02.jpg</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- /container -->
     </section>
